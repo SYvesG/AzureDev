@@ -276,6 +276,7 @@
                 "osProfile": {
                     "computerName": "Serv-NE-Server-",
                     "adminUsername": "adminuser",
+                    "adminPassword": "asdfasdf12341234!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -286,8 +287,7 @@
                         }
                     },
                     "secrets": [],
-                    "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": false
+                    "allowExtensionOperations": true
                 },
                 "networkProfile": {
                     "networkInterfaces": [
@@ -346,6 +346,7 @@
                 "osProfile": {
                     "computerName": "VM-NE-Client2-S",
                     "adminUsername": "adminuser",
+                    "adminPassword": "asdfasdf12341234!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -356,8 +357,7 @@
                         }
                     },
                     "secrets": [],
-                    "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": false
+                    "allowExtensionOperations": true
                 },
                 "securityProfile": {
                     "uefiSettings": {
@@ -423,6 +423,7 @@
                 "osProfile": {
                     "computerName": "WM-NE-Client1-S",
                     "adminUsername": "adminuser",
+                    "adminPassword": "asdfasdf12341234!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -433,8 +434,7 @@
                         }
                     },
                     "secrets": [],
-                    "allowExtensionOperations": true,
-                    "requireGuestProvisionSignal": false
+                    "allowExtensionOperations": true
                 },
                 "securityProfile": {
                     "uefiSettings": {
