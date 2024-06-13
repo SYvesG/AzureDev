@@ -261,12 +261,11 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(parameters('virtualMachines_Serv_NE_Server_Sven_name'), '_disk1_b308a678462b4ffdadefc03bfcffb880')]",
+                        "name": "[concat(parameters('virtualMachines_Serv_NE_Server_Sven_name'), '_disk1_')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_Serv_NE_Server_Sven_name'), '_disk1_b308a678462b4ffdadefc03bfcffb880'))]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "deleteOption": "Delete",
                         "diskSizeGB": 127
@@ -332,12 +331,11 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(parameters('virtualMachines_VM_NE_Client2_Sven_name'), '_disk1_c6762380875a416fa7e090e5002a857d')]",
+                        "name": "[concat(parameters('virtualMachines_VM_NE_Client2_Sven_name'), '_disk1_')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_VM_NE_Client2_Sven_name'), '_disk1_c6762380875a416fa7e090e5002a857d'))]"
+                            "storageAccountType": "Standard_LRS" 
                         },
                         "deleteOption": "Delete",
                         "diskSizeGB": 127
@@ -410,12 +408,11 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(parameters('virtualMachines_WM_NE_Client1_Sven_name'), '_disk1_c86448709f814be7adcccfe56c774633')]",
+                        "name": "[concat(parameters('virtualMachines_WM_NE_Client1_Sven_name'), '_disk1_')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_WM_NE_Client1_Sven_name'), '_disk1_c86448709f814be7adcccfe56c774633'))]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "deleteOption": "Delete",
                         "diskSizeGB": 127
