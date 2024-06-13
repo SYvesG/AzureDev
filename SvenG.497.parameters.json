@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "bastionHosts_Bast_NE_Bast_Sven_name": {
+            "value": null
+        },
+        "virtualNetworks_VNW_NE_Main_Sven_name": {
+            "value": null
+        },
+        "virtualMachines_VM_NE_Client2_Sven_name": {
+            "value": null
+        },
+        "virtualMachines_WM_NE_Client1_Sven_name": {
+            "value": null
+        },
+        "virtualMachines_Serv_NE_Server_Sven_name": {
+            "value": null
+        },
+        "publicIPAddresses_VNW_NE_Main_Sven_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_ne_client2_sven981_name": {
+            "value": null
+        },
+        "networkInterfaces_wm_ne_client1_sven262_name": {
+            "value": null
+        },
+        "networkInterfaces_serv_ne_server_sven510_name": {
+            "value": null
+        },
+        "networkSecurityGroups_VM_NE_Client2_Sven_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_WM_NE_Client1_Sven_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Serv_NE_Server_Sven_nsg_name": {
+            "value": null
+        }
+    }
+}
